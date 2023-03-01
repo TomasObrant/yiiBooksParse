@@ -18,7 +18,7 @@ class m230223_152849_create_books_table extends Migration
             'isbn' => $this->string(),
             'pageCount' => $this->integer()->defaultValue(0),
             'publishedDate' => $this->dateTime(),
-            'thumbnailUrl' => $this->string(),
+            'image' => $this->string(),
             'shortDescription' => $this->text(),
             'longDescription' => $this->text(),
             'status' => $this->string(),

@@ -2,9 +2,9 @@
 
 namespace backend\controllers;
 
-use backend\models\Books;
-use backend\models\Authors;
-use backend\models\Categories;
+use common\models\Books;
+use common\models\Authors;
+use common\models\Categories;
 use yii\web\Controller;
 
 

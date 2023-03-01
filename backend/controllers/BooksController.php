@@ -2,10 +2,10 @@
 
 namespace backend\controllers;
 
-use backend\models\BookCategory;
-use backend\models\Books;
-use backend\models\BooksSearch;
-use backend\models\Categories;
+use common\models\BookCategory;
+use common\models\Books;
+use common\models\BooksSearch;
+use common\models\Categories;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -68,7 +68,7 @@ class BooksController extends Controller
     public function actionParse()
     {
 
-        $file = file_get_contents('../books.json');
+        $file = file_get_contents('../books-min.json');
         $books = json_decode($file, true);
 
         foreach ($books as $bookData) {

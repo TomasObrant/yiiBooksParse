@@ -1,13 +1,13 @@
 <?php
 
-use backend\models\Authors;
+use common\models\Authors;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 
 /** @var yii\web\View $this */
-/** @var backend\models\AuthorsSearch $searchModel */
+/** @var common\models\AuthorsSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
 $this->title = 'Authors';

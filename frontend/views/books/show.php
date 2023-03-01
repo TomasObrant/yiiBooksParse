@@ -9,7 +9,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 <div class="site-books">
-    <h1><?= $book->getFulltitle($book->title) ?></h1>
+    <h1><?= $book->title ?></h1>
     <p><?= $book->isbn ?></p>
     <p><?= $book->shortDescription ?></p>
     <p><?= $book->longDescription ?></p>

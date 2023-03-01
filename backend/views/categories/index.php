@@ -1,13 +1,13 @@
 <?php
 
-use backend\models\Categories;
+use common\models\Categories;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 
 /** @var yii\web\View $this */
-/** @var backend\models\CategoriesSearch $searchModel */
+/** @var common\models\CategoriesSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
 $this->title = 'Categories';

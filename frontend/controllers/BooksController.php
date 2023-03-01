@@ -5,7 +5,7 @@ namespace frontend\controllers;
 use Yii;
 use yii\web\Controller;
 use yii\data\Pagination;
-use frontend\models\Books;
+use common\models\Books;
 
 class BooksController extends Controller
 {
@@ -13,7 +13,7 @@ class BooksController extends Controller
     {
         $query = Books::find();
         $pagination = new Pagination([
-            'defaultPageSize' => 5,
+            'defaultPageSize' => 9,
             'totalCount' => $query->count(),
         ]);
 

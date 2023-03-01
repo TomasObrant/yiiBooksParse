@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use backend\models\Authors;
-use backend\models\AuthorsSearch;
+use common\models\Authors;
+use common\models\AuthorsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
